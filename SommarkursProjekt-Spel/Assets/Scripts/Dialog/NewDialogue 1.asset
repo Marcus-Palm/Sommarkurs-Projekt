@@ -13,12 +13,32 @@ MonoBehaviour:
   m_Name: NewDialogue 1
   m_EditorClassIdentifier: 
   nodes:
-  - nodeID: 
+  - nodeID: a
     text: Hello
+    children:
+    - b
+    - c
+    rect:
+      serializedVersion: 2
+      x: 151
+      y: 251
+      width: 200
+      height: 100
+  - nodeID: b
+    text: hej mormor
     children: []
     rect:
       serializedVersion: 2
-      x: 0
-      y: 0
+      x: 573
+      y: 361
+      width: 200
+      height: 100
+  - nodeID: c
+    text: hej pappa
+    children: []
+    rect:
+      serializedVersion: 2
+      x: 568
+      y: 157
       width: 200
       height: 100

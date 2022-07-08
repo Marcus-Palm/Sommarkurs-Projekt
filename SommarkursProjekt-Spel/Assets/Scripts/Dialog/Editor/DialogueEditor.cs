@@ -11,11 +11,16 @@ namespace summerProject.Dialogue.Editor
     public class DialogueEditor : EditorWindow
     {
         Dialogue selectedDialogue = null;
+        [NonSerialized]
         GUIStyle nodeStyle;
-         
+        [NonSerialized]
         DialogueNode draggingNode = null;
-
+        [NonSerialized]
         Vector2 draggingOffset;
+        [NonSerialized]
+        DialogueNode creatingNode = null;
+        [NonSerialized]
+        DialogueNode removingNode = null;  
 
         [MenuItem("Window/Summer Project/Dialogue Editor")]
         public static void ShowEditorWindow()
@@ -42,7 +47,7 @@ namespace summerProject.Dialogue.Editor
             Selection.selectionChanged += OnSelectionChanged;
 
             nodeStyle = new GUIStyle();
-            nodeStyle.normal.background = EditorGUIUtility.Load("Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Textures/Sprite Shape Corner.png") as Texture2D;
+            nodeStyle.normal.background = EditorGUIUtility.Load("Assets/Graphics/DialogSystemUI/blueBox.png") as Texture2D;
             nodeStyle.padding = new RectOffset(15, 15, 10, 10);
             
             //nodeStyle.border = new RectOffset(5, 5, 5, 5);
@@ -67,8 +72,26 @@ namespace summerProject.Dialogue.Editor
                 ProcessEvents();
                 foreach (DialogueNode node in selectedDialogue.GetAllNodes())
                 {
-                    OnGUINode(node);
+                    
+                    DrawConnections(node);
+                }
 
+                foreach (DialogueNode node in selectedDialogue.GetAllNodes())
+                {
+                    DrawNode(node);
+                    
+                }
+                if(creatingNode != null)
+                {
+                    Undo.RecordObject(selectedDialogue, "Added Dialogue Node");
+                    selectedDialogue.CreateNode(creatingNode);
+                    creatingNode = null;
+                }
+                if (removingNode != null)
+                {
+                    Undo.RecordObject(selectedDialogue, "Deleated Dialogue Node");
+                    selectedDialogue.DeleteNode(removingNode);
+                    removingNode = null;
                 }
 
             }
@@ -81,6 +104,8 @@ namespace summerProject.Dialogue.Editor
             
             
         }
+
+        
 
         private void ProcessEvents()
         {
@@ -106,22 +131,51 @@ namespace summerProject.Dialogue.Editor
         }
 
 
-        private void OnGUINode(DialogueNode node)
+        private void DrawNode(DialogueNode node)
         {
             GUILayout.BeginArea(node.rect, nodeStyle);
             EditorGUI.BeginChangeCheck();
 
-            EditorGUILayout.LabelField("Node:",EditorStyles.whiteBoldLabel);
+            
             string newText = EditorGUILayout.TextField(node.text);
-            string newNodeID = EditorGUILayout.TextField(node.nodeID);
+            
 
             if (EditorGUI.EndChangeCheck())
             {
                 Undo.RecordObject(selectedDialogue, "Update Dialogue Text");
                 node.text = newText;
-                node.nodeID = newNodeID;
+                
             }
+
+            GUILayout.BeginHorizontal();
+
+            if (GUILayout.Button("+"))
+            {
+                creatingNode = node;
+                
+            }
+            if (GUILayout.Button("X"))
+            {
+                removingNode = node;
+
+            }
+            GUILayout.EndHorizontal();
+
             GUILayout.EndArea();
+        }
+
+        private void DrawConnections(DialogueNode node)
+        {
+            Vector3 startPos = new Vector2(node.rect.xMax, node.rect.center.y);
+
+            foreach (DialogueNode childNode in selectedDialogue.GetAllChildren(node))
+            {
+                Vector3 endPos = new Vector2(childNode.rect.xMin, childNode.rect.center.y);
+                Vector3 controlPointOffset = endPos - startPos;
+                controlPointOffset.y = 0;
+                controlPointOffset.x *= 0.8f;
+                Handles.DrawBezier(startPos, endPos, startPos + controlPointOffset, endPos - controlPointOffset, Color.white, null, 4f);
+            }
         }
 
         private DialogueNode GetNodeAtPoint(Vector2 point)

@@ -10,55 +10,54 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fa85a55025902fb48a17ed45df9110f5, type: 3}
-  m_Name: NewDialogue
+  m_Name: NewDialogue 2
   m_EditorClassIdentifier: 
   nodes:
-  - nodeID: a
-    text: Hello there
+  - nodeID: 7fe37659-d0ef-4789-8063-154573226457
+    text: 
     children:
-    - b
-    - c
+    - c8957782-3ed2-4641-b073-b233002dc107
     rect:
       serializedVersion: 2
-      x: 89
-      y: 242
-      width: 200
-      height: 200
-  - nodeID: b
-    text: hello, yourself!
-    children:
-    - d
-    rect:
-      serializedVersion: 2
-      x: 469
-      y: 109
+      x: 138
+      y: 137
       width: 200
       height: 100
-  - nodeID: c
-    text: go away
-    children:
-    - e
-    rect:
-      serializedVersion: 2
-      x: 525
-      y: 557
-      width: 200
-      height: 100
-  - nodeID: d
-    text: wonderfull day we have
+  - nodeID: c8957782-3ed2-4641-b073-b233002dc107
+    text: 
     children: []
     rect:
       serializedVersion: 2
-      x: 801
-      y: 41
+      x: 462
+      y: 79
       width: 200
       height: 100
-  - nodeID: e
-    text: good bye!
+  - nodeID: 8f92bc1c-1c40-4adb-9404-eb0dfd422b7a
+    text: 
+    children:
+    - 94376e0f-ee3f-491a-89de-e77795489700
+    rect:
+      serializedVersion: 2
+      x: 325
+      y: 364
+      width: 200
+      height: 100
+  - nodeID: 94376e0f-ee3f-491a-89de-e77795489700
+    text: 
+    children:
+    - b113e138-d55a-4134-b562-5f02afe5ab1d
+    rect:
+      serializedVersion: 2
+      x: 635
+      y: 417
+      width: 200
+      height: 100
+  - nodeID: b113e138-d55a-4134-b562-5f02afe5ab1d
+    text: 
     children: []
     rect:
       serializedVersion: 2
-      x: 834
-      y: 499
+      x: 982
+      y: 508
       width: 200
       height: 100
