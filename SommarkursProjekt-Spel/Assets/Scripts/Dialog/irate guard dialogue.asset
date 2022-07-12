@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: 77b4a3f3-ca57-482e-8b9f-a650de68682e
   m_EditorClassIdentifier: 
   isPlayerSpeaking: 0
-  text: 
+  text: im done talking with you
   children: []
   rect:
     serializedVersion: 2
-    x: 932
-    y: 298
+    x: 924
+    y: 295
     width: 200
     height: 100
 --- !u!114 &-2953650661830126983
@@ -34,7 +34,7 @@ MonoBehaviour:
   m_Name: 52fdc4e7-a294-49a1-858c-a54341e3c654
   m_EditorClassIdentifier: 
   isPlayerSpeaking: 1
-  text: 
+  text: who are you
   children:
   - 9b69813f-3720-4b69-8bf3-e110a360ffe2
   rect:
@@ -53,7 +53,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fa85a55025902fb48a17ed45df9110f5, type: 3}
-  m_Name: NewDialogue
+  m_Name: irate guard dialogue
   m_EditorClassIdentifier: 
   nodes:
   - {fileID: 2894224193436027841}
@@ -76,10 +76,9 @@ MonoBehaviour:
   m_Name: 0ee51a83-1003-4221-9741-943e67702593
   m_EditorClassIdentifier: 
   isPlayerSpeaking: 1
-  text: 
+  text: 'get lost '
   children:
   - 77b4a3f3-ca57-482e-8b9f-a650de68682e
-  - 9b69813f-3720-4b69-8bf3-e110a360ffe2
   rect:
     serializedVersion: 2
     x: 592
@@ -99,12 +98,12 @@ MonoBehaviour:
   m_Name: 9b69813f-3720-4b69-8bf3-e110a360ffe2
   m_EditorClassIdentifier: 
   isPlayerSpeaking: 0
-  text: 
+  text: Im the irate guard
   children: []
   rect:
     serializedVersion: 2
-    x: 929
-    y: 457
+    x: 917
+    y: 456
     width: 200
     height: 100
 --- !u!114 &2894224193436027841
@@ -120,7 +119,7 @@ MonoBehaviour:
   m_Name: 59d11987-4f58-4fea-806c-3bf26c26ba90
   m_EditorClassIdentifier: 
   isPlayerSpeaking: 0
-  text: 
+  text: hello
   children:
   - f5339c03-c9b3-46e6-bb31-e4e4a233ba6d
   - 52fdc4e7-a294-49a1-858c-a54341e3c654
@@ -144,7 +143,7 @@ MonoBehaviour:
   m_Name: f5339c03-c9b3-46e6-bb31-e4e4a233ba6d
   m_EditorClassIdentifier: 
   isPlayerSpeaking: 1
-  text: 
+  text: hello yourself
   children:
   - 77b4a3f3-ca57-482e-8b9f-a650de68682e
   rect:
