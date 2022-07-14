@@ -41,8 +41,8 @@ MonoBehaviour:
   children: []
   rect:
     serializedVersion: 2
-    x: 1359
-    y: 223
+    x: 1419
+    y: 193
     width: 200
     height: 100
 --- !u!114 &-6821629622851202438
@@ -110,8 +110,8 @@ MonoBehaviour:
   children: []
   rect:
     serializedVersion: 2
-    x: 1383
-    y: 428
+    x: 1375
+    y: 482
     width: 200
     height: 100
 --- !u!114 &-2953650661830126983
@@ -185,7 +185,7 @@ MonoBehaviour:
   - {fileID: -8274049343558056186}
   - {fileID: 5910664067229168494}
   newNodeOffset: {x: 250, y: 0}
-  playerName: Player
+  playerName: Marcus
   NPCName: Irate Guard
 --- !u!114 &1794843242547963217
 MonoBehaviour:

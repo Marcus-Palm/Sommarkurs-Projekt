@@ -28,6 +28,13 @@ public class Movment : MonoBehaviour
         animator.SetFloat("Vertical", movement.y);
         animator.SetFloat("Speed", movement.sqrMagnitude);
 
+        if(movement.x == 1f || movement.x == -1f || movement.y == 1f || movement.y == -1f)
+        {
+            animator.SetFloat("LastFacingX", movement.x);
+            animator.SetFloat("LastFacingY", movement.y);
+        }
+        
+
     }
 
     private void FixedUpdate()
