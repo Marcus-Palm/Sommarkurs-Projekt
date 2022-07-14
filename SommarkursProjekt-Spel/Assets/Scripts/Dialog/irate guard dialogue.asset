@@ -1,5 +1,73 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8274049343558056186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: efc3972d-767a-4298-a08d-0768a3c2a9f3
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: I came here from Newtown
+  buttonLabel: not form here
+  children:
+  - 9b69813f-3720-4b69-8bf3-e110a360ffe2
+  rect:
+    serializedVersion: 2
+    x: 469
+    y: 479
+    width: 200
+    height: 150
+--- !u!114 &-7749601624760948765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: e31cb629-3ec5-40bf-b69a-7187ee76fed4
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: You Liar! there ain't no Mr.Browler, I made him up!
+  buttonLabel: You Liar! there ain't no Mr.Browler, I made him up!
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1359
+    y: 223
+    width: 200
+    height: 100
+--- !u!114 &-6821629622851202438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: f097cb9a-d5d3-4268-817b-f0784bca38cf
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: I haven't heard about any trouble
+  buttonLabel: News to me
+  children:
+  - b059cf83-d3f2-4050-b198-08faa0a87913
+  rect:
+    serializedVersion: 2
+    x: 1053
+    y: 453
+    width: 200
+    height: 150
 --- !u!114 &-4795797552241079751
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13,12 +81,37 @@ MonoBehaviour:
   m_Name: 77b4a3f3-ca57-482e-8b9f-a650de68682e
   m_EditorClassIdentifier: 
   isPlayerSpeaking: 0
-  text: im done talking with you
+  text: Oh really? Then you musr know Mr.Brolwer.
+  buttonLabel: Oh really? Then you musr know Mr.Brolwer.
+  children:
+  - 285f3037-f810-4ac5-b345-a01b07140f15
+  - 9f17781f-5885-4faa-903d-a494d79b5a2d
+  rect:
+    serializedVersion: 2
+    x: 742
+    y: 206
+    width: 200
+    height: 100
+--- !u!114 &-4103854825705192291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: b059cf83-d3f2-4050-b198-08faa0a87913
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Don't you worry about it. Say, do you have something to eat? I'm starving.
+  buttonLabel: Don't you worry about it. Say, do you have something to eat? I'm starving.
   children: []
   rect:
     serializedVersion: 2
-    x: 924
-    y: 295
+    x: 1383
+    y: 428
     width: 200
     height: 100
 --- !u!114 &-2953650661830126983
@@ -35,6 +128,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isPlayerSpeaking: 1
   text: who are you
+  buttonLabel: 
   children:
   - 9b69813f-3720-4b69-8bf3-e110a360ffe2
   rect:
@@ -43,6 +137,29 @@ MonoBehaviour:
     y: 487
     width: 200
     height: 100
+--- !u!114 &-2282485770278689682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: 285f3037-f810-4ac5-b345-a01b07140f15
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Mr. Browler, Yes! He is a good friend of mine.
+  buttonLabel: I know him!
+  children:
+  - e31cb629-3ec5-40bf-b69a-7187ee76fed4
+  rect:
+    serializedVersion: 2
+    x: 1036
+    y: 97
+    width: 200
+    height: 150
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57,34 +174,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodes:
   - {fileID: 2894224193436027841}
-  - {fileID: 6293497420098826932}
-  - {fileID: -2953650661830126983}
-  - {fileID: 117603514760961341}
   - {fileID: -4795797552241079751}
   - {fileID: 1794843242547963217}
+  - {fileID: -7749601624760948765}
+  - {fileID: -4103854825705192291}
+  - {fileID: -2282485770278689682}
+  - {fileID: 4299165482082544472}
+  - {fileID: -6821629622851202438}
+  - {fileID: 2331263288499134028}
+  - {fileID: -8274049343558056186}
+  - {fileID: 5910664067229168494}
   newNodeOffset: {x: 250, y: 0}
---- !u!114 &117603514760961341
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
-  m_Name: 0ee51a83-1003-4221-9741-943e67702593
-  m_EditorClassIdentifier: 
-  isPlayerSpeaking: 1
-  text: 'get lost '
-  children:
-  - 77b4a3f3-ca57-482e-8b9f-a650de68682e
-  rect:
-    serializedVersion: 2
-    x: 592
-    y: 366
-    width: 200
-    height: 100
+  playerName: Player
+  NPCName: Irate Guard
 --- !u!114 &1794843242547963217
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -98,14 +200,40 @@ MonoBehaviour:
   m_Name: 9b69813f-3720-4b69-8bf3-e110a360ffe2
   m_EditorClassIdentifier: 
   isPlayerSpeaking: 0
-  text: Im the irate guard
-  children: []
+  text: Newtown, eh? I hered there's trouble brewing down there
+  buttonLabel: Newtown, eh? I hered there's trouble brewing down there
+  children:
+  - f097cb9a-d5d3-4268-817b-f0784bca38cf
+  - a1a09b93-0e1d-4d2b-9669-6c99d0554d38
   rect:
     serializedVersion: 2
-    x: 917
-    y: 456
+    x: 752
+    y: 551
     width: 200
     height: 100
+--- !u!114 &2331263288499134028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: a1a09b93-0e1d-4d2b-9669-6c99d0554d38
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Did I say Newtown? I'm actually from Springville.
+  buttonLabel: ehm... actually
+  children:
+  - 77b4a3f3-ca57-482e-8b9f-a650de68682e
+  rect:
+    serializedVersion: 2
+    x: 1045
+    y: 639
+    width: 200
+    height: 150
 --- !u!114 &2894224193436027841
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -119,18 +247,18 @@ MonoBehaviour:
   m_Name: 59d11987-4f58-4fea-806c-3bf26c26ba90
   m_EditorClassIdentifier: 
   isPlayerSpeaking: 0
-  text: hello
+  text: You dont look like you're from around here.
+  buttonLabel: You dont look like you're from around here.
   children:
-  - f5339c03-c9b3-46e6-bb31-e4e4a233ba6d
-  - 52fdc4e7-a294-49a1-858c-a54341e3c654
-  - 0ee51a83-1003-4221-9741-943e67702593
+  - efc3972d-767a-4298-a08d-0768a3c2a9f3
+  - 0da6e53e-624c-429f-b310-8dc8b48eb029
   rect:
     serializedVersion: 2
-    x: 337
-    y: 359
+    x: 179
+    y: 350
     width: 200
     height: 100
---- !u!114 &6293497420098826932
+--- !u!114 &4299165482082544472
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -140,15 +268,39 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
-  m_Name: f5339c03-c9b3-46e6-bb31-e4e4a233ba6d
+  m_Name: 9f17781f-5885-4faa-903d-a494d79b5a2d
   m_EditorClassIdentifier: 
   isPlayerSpeaking: 1
-  text: hello yourself
+  text: I have never heard of them
+  buttonLabel: Who?
+  children:
+  - b059cf83-d3f2-4050-b198-08faa0a87913
+  rect:
+    serializedVersion: 2
+    x: 1039
+    y: 279
+    width: 200
+    height: 150
+--- !u!114 &5910664067229168494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: 0da6e53e-624c-429f-b310-8dc8b48eb029
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: I've lived here all my life.
+  buttonLabel: from here
   children:
   - 77b4a3f3-ca57-482e-8b9f-a650de68682e
   rect:
     serializedVersion: 2
-    x: 593
-    y: 244
+    x: 450
+    y: 253
     width: 200
-    height: 100
+    height: 150

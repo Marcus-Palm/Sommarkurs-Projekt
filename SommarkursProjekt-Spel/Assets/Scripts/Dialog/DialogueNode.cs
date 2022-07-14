@@ -15,9 +15,11 @@ namespace summerProject.Dialogue
         [SerializeField]
         private string text;
         [SerializeField]
+        private string buttonLabel;
+        [SerializeField]
         private List<string> children = new List<string>();
         [SerializeField]
-        private Rect rect = new Rect( 0, 0, 200, 100);
+        private Rect rect = new Rect( 0, 0, 200, 150);
 
         public Rect GetRect()
         {
@@ -27,6 +29,11 @@ namespace summerProject.Dialogue
         public string GetText()
         {
             return text;
+        }
+
+        public string GetButtonLabel()
+        {
+            return buttonLabel;
         }
 
         public List<string> GetChildren()
@@ -53,6 +60,17 @@ namespace summerProject.Dialogue
             {
                 Undo.RecordObject(this, "Update Dialogue Text");
                 text = newText;
+                EditorUtility.SetDirty(this);
+
+            }
+        }
+
+        public void SetButtonText(string newText)
+        {
+            if (newText != buttonLabel)
+            {
+                Undo.RecordObject(this, "Update Dialogue Button Text");
+                buttonLabel = newText;
                 EditorUtility.SetDirty(this);
 
             }

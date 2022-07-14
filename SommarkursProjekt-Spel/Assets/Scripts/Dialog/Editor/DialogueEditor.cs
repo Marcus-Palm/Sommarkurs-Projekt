@@ -191,9 +191,16 @@ namespace summerProject.Dialogue.Editor
                 style = playerNodeStyle;
             }
 
-            GUILayout.BeginArea(node.GetRect(), style); 
-            
+            GUILayout.BeginArea(node.GetRect(), style);
+
+            EditorGUILayout.LabelField("Text",EditorStyles.whiteBoldLabel);
             node.SetText(EditorGUILayout.TextField(node.GetText()));
+
+            if (node.IsPlayerSpeaking())
+            {
+                EditorGUILayout.LabelField("Button Text", EditorStyles.whiteBoldLabel);
+                node.SetButtonText(EditorGUILayout.TextField(node.GetButtonLabel()));
+            }
 
             GUILayout.BeginHorizontal();
 

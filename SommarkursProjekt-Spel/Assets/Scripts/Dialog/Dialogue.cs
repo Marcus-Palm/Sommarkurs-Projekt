@@ -17,7 +17,22 @@ namespace summerProject.Dialogue
 
         Dictionary<string, DialogueNode> nodeLookup = new Dictionary<string, DialogueNode>();
 
-     
+        [SerializeField]
+        String playerName;
+        [SerializeField]
+        String NPCName;
+
+        public string GetPlayerName()
+        {
+            return playerName;
+        }
+
+        public string GetNPCName()
+        {
+            return NPCName;
+        }
+
+
 
         private void OnValidate()
         {
@@ -38,6 +53,8 @@ namespace summerProject.Dialogue
             return nodes[0];
         }
 
+       
+
         public IEnumerable<DialogueNode> GetAllChildren(DialogueNode parentNode)
         {
             
@@ -49,6 +66,28 @@ namespace summerProject.Dialogue
                 }
             }
             
+        }
+
+        public IEnumerable<DialogueNode> GetPlayerChildren(DialogueNode currentNode)
+        {
+            foreach(DialogueNode node in GetAllChildren(currentNode))
+            {
+                if (node.IsPlayerSpeaking())
+                {
+                    yield return node;
+                }
+            }
+        }
+
+        public IEnumerable<DialogueNode> GetAIChildren(DialogueNode currentNode)
+        {
+            foreach (DialogueNode node in GetAllChildren(currentNode))
+            {
+                if (!node.IsPlayerSpeaking())
+                {
+                    yield return node;
+                }
+            }
         }
 
 #if UNITY_EDITOR

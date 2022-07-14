@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isPlayerSpeaking: 1
   text: 
+  buttonLabel: 
   children:
   - 5ab096f2-7ffb-4280-bc92-f5497c64f730
   rect:
@@ -36,6 +37,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isPlayerSpeaking: 0
   text: 
+  buttonLabel: 
   children: []
   rect:
     serializedVersion: 2
@@ -61,6 +63,8 @@ MonoBehaviour:
   - {fileID: 1142909866071055338}
   - {fileID: -1209519111838415841}
   newNodeOffset: {x: 250, y: 0}
+  playerName: player
+  NPCName: 
 --- !u!114 &1142909866071055338
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -75,6 +79,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isPlayerSpeaking: 0
   text: 
+  buttonLabel: 
   children: []
   rect:
     serializedVersion: 2
@@ -96,6 +101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isPlayerSpeaking: 0
   text: dnsjkdf
+  buttonLabel: 
   children:
   - fb4947f1-8f3f-4015-bb81-9efa95369f82
   - 9ad9ece3-6d33-46c4-834c-83d06f1abeb8
