@@ -131,7 +131,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7443c0d24cce1804183ae9bf54cc7837, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  testDialogue: {fileID: 11400000, guid: 619bbb21e0661344ab1bb16eddb6a30d, type: 2}
+  testDialogue: {fileID: 11400000, guid: f4ecd38953243e945a02c0c944e25c83, type: 2}
 --- !u!114 &7875887108160610380
 MonoBehaviour:
   m_ObjectHideFlags: 0
