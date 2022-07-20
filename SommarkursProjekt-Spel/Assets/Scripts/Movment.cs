@@ -57,12 +57,12 @@ public class Movment : MonoBehaviour
 
     }
 
-    private void SwitchPlane()
+    public void SwitchPlane()
     {
         if (mapView)
         {
             mapView = false;
-            rb.gravityScale = 1;
+            rb.gravityScale = 25;
         }
         else
         {
