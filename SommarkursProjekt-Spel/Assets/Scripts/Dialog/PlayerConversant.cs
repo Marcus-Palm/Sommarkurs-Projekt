@@ -8,35 +8,43 @@ namespace summerProject.Dialogue
 {
     public class PlayerConversant : MonoBehaviour
     {
-
+        /*
         [SerializeField]
         Dialogue testDialogue;
-
+        */
         Dialogue currentDialogue;
         DialogueNode currentNode = null;
+        AIConversant currentConversant = null;
         bool isChoosing = false;
 
         public event Action onConversationUpdated;
-
+        
+        /*
         private IEnumerator Start()
         {
             yield return new WaitForSeconds(2);
             StartDialogue(testDialogue);
         }
+       */
 
-        public void StartDialogue(Dialogue newDialogue)
+        public void StartDialogue(AIConversant newConversant, Dialogue newDialogue)
         {
+            currentConversant = newConversant;
             currentDialogue = newDialogue;
             currentNode = currentDialogue.GetRootNode();
+            TriggerEnterAction();
             onConversationUpdated();
 
         }
 
         public void QuitDialogue()
         {
+            
             currentDialogue = null;
+            TriggerExitAction();
             currentNode = null;
             isChoosing = false;
+            currentConversant = null;
             onConversationUpdated();
         }
 
@@ -83,6 +91,7 @@ namespace summerProject.Dialogue
         public void SelectChoice(DialogueNode chosenNode)
         {
             currentNode = chosenNode;
+            TriggerEnterAction();
             isChoosing = false;
             onConversationUpdated();
              /*
@@ -97,6 +106,7 @@ namespace summerProject.Dialogue
             if(numberOfPlayerResponses > 0)
             {
                 isChoosing = true;
+                TriggerExitAction();
                 onConversationUpdated();
                 return;
             }
@@ -104,7 +114,9 @@ namespace summerProject.Dialogue
 
             DialogueNode[] children = currentDialogue.GetAIChildren(currentNode).ToArray();
             int randomIndex = UnityEngine.Random.Range(0, children.Count());
+            TriggerExitAction();
             currentNode = children[randomIndex];
+            TriggerEnterAction();
             onConversationUpdated();
         }
 
@@ -113,6 +125,34 @@ namespace summerProject.Dialogue
         public bool HasNext()
         {
             return currentDialogue.GetAllChildren(currentNode).Count() > 0;
+        }
+
+        private void TriggerEnterAction()
+        {
+            if(currentNode != null)
+            {
+                TriggerAction(currentNode.GetOnEnterAction());
+            }
+        }
+
+        private void TriggerExitAction()
+        {
+            if (currentNode != null)
+            {
+                TriggerAction(currentNode.GetOnExitAction());
+            }
+        }
+
+        private void TriggerAction(string action)
+        {
+            if (action == "") return;
+
+            foreach(DialogueTrigger trigger in currentConversant.GetComponents<DialogueTrigger>())
+            {
+
+                trigger.Trigger(action);
+            }
+
         }
     }
 }

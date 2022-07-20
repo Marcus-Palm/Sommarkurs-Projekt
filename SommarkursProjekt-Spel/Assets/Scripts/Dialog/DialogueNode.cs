@@ -20,6 +20,10 @@ namespace summerProject.Dialogue
         private List<string> children = new List<string>();
         [SerializeField]
         private Rect rect = new Rect( 0, 0, 200, 150);
+        [SerializeField]
+        string onEnterAction;
+        [SerializeField]
+        string onExitAction; // could make this an array if I want to trigger multiple actions.
 
         public Rect GetRect()
         {
@@ -44,6 +48,16 @@ namespace summerProject.Dialogue
         public bool IsPlayerSpeaking()
         {
             return isPlayerSpeaking;
+        }
+
+        public string GetOnEnterAction()
+        {
+            return onEnterAction;
+        }
+
+        public string GetOnExitAction()
+        {
+            return onExitAction;
         }
 
 #if UNITY_EDITOR

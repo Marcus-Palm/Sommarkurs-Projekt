@@ -97,6 +97,7 @@ GameObject:
   - component: {fileID: 8911257128118722436}
   - component: {fileID: 6500671771449349100}
   - component: {fileID: 7138326853260603763}
+  - component: {fileID: 1765482988702727163}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -147,6 +148,7 @@ MonoBehaviour:
   movmentSpeed: 5
   rb: {fileID: 7138326853260603762}
   animator: {fileID: 6500671771449349100}
+  mapView: 1
 --- !u!50 &7138326853260603762
 Rigidbody2D:
   serializedVersion: 4
@@ -264,3 +266,25 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.4, y: 0.8}
   m_EdgeRadius: 0
+--- !u!114 &1765482988702727163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8299373982991917654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca09739c20b7fe24894cf99ea20f5323, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  statuses:
+  - quest: {fileID: 11400000, guid: f3598ba1875db144b83d668255233b65, type: 2}
+    compleatdeObjectives: []
+  - quest: {fileID: 11400000, guid: 8ab9c0f38cd19584387215d071d11377, type: 2}
+    compleatdeObjectives:
+    - Find and collect the "Jewel of WIsdom"
+  - quest: {fileID: 11400000, guid: d36010a5da3d0ce469792be313778572, type: 2}
+    compleatdeObjectives:
+    - Pollish your Helm
+    - Pollish your Chestplate

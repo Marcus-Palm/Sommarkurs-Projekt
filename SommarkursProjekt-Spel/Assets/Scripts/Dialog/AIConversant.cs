@@ -27,7 +27,7 @@ namespace summerProject.Dialogue
         {
             if (inConverastionRange && Input.GetKeyDown(KeyCode.E))
             {
-                player.gameObject.GetComponent<PlayerConversant>().StartDialogue(dialogue);
+                player.gameObject.GetComponent<PlayerConversant>().StartDialogue(this,dialogue);
             }
         }
         private void OnTriggerEnter2D(Collider2D collision)
