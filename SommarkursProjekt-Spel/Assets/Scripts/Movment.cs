@@ -6,6 +6,8 @@ using UnityEngine;
 public class Movment : MonoBehaviour
 {
     public float movmentSpeed = 5f;
+    
+    public float jumpForce = 17f;
 
     public Rigidbody2D rb;
 
@@ -14,17 +16,21 @@ public class Movment : MonoBehaviour
 
     Vector2 movement;
 
-    public bool mapView = true;
+    public bool mapView = false;
+
+    [SerializeField] Transform groundCheck;
+
+
+    [SerializeField] private LayerMask groundLayer;
+
+    public bool canjump = false;
 
 
     // Update is called once per frame
     void Update()
     {
 
-        if (Input.GetKeyDown(KeyCode.H))
-        {
-            SwitchPlane();
-        }
+        
         if (mapView)
         {
 
@@ -48,9 +54,23 @@ public class Movment : MonoBehaviour
         }
         else
         {
+            if (canjump)
+            {
+
+                if (Input.GetKeyDown(KeyCode.Space) && IsGrounded())
+                {
+                    rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+                }
+                if(Input.GetKeyUp(KeyCode.Space) && rb.velocity.y > 0f)
+                {
+                    rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
+                }
+            }
+
             movement.x = Input.GetAxisRaw("Horizontal");
 
             animator.SetFloat("Horizontal", movement.x);
+            animator.SetFloat("Speed", movement.sqrMagnitude);
 
             if (movement.x == 1f || movement.x == -1f)
             {
@@ -62,12 +82,22 @@ public class Movment : MonoBehaviour
 
     }
 
+    private bool IsGrounded()
+    {
+        return Physics2D.OverlapCircle(groundCheck.position, 0.3f, groundLayer);
+    }
+
+    public void HasTrousers()
+    {
+        canjump = true;
+    }
+
     public void SwitchPlane()
     {
         if (mapView)
         {
             mapView = false;
-            rb.gravityScale = 5;
+            rb.gravityScale = 4;
         }
         else
         {
@@ -78,9 +108,16 @@ public class Movment : MonoBehaviour
 
     private void FixedUpdate()
     {
-        
-        
+
+        if (mapView)
+        {
+
             rb.MovePosition(rb.position + movement * movmentSpeed * Time.fixedDeltaTime);
+        }
+        else
+        {
+            rb.velocity = new Vector2(movement.x * movmentSpeed, rb.velocity.y);
+        }
         
             
     }
