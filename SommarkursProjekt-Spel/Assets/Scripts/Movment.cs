@@ -50,7 +50,12 @@ public class Movment : MonoBehaviour
         {
             movement.x = Input.GetAxisRaw("Horizontal");
 
-            
+            animator.SetFloat("Horizontal", movement.x);
+
+            if (movement.x == 1f || movement.x == -1f)
+            {
+                animator.SetFloat("LastFacingX", movement.x);
+            }
 
         }
         
@@ -62,7 +67,7 @@ public class Movment : MonoBehaviour
         if (mapView)
         {
             mapView = false;
-            rb.gravityScale = 25;
+            rb.gravityScale = 5;
         }
         else
         {
