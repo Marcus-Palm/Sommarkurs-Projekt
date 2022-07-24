@@ -23,13 +23,22 @@ public class Movment : MonoBehaviour
 
     [SerializeField] private LayerMask groundLayer;
 
+    [SerializeField] private LayerMask LavaLayer;
+
     public bool canjump = false;
+
+    public bool HasSabatonstOfRecal = false;
+
+    public Transform recallPoint;
+
+    public GameObject recallPE;
+
 
 
     // Update is called once per frame
     void Update()
     {
-
+        
         
         if (mapView)
         {
@@ -77,6 +86,16 @@ public class Movment : MonoBehaviour
                 animator.SetFloat("LastFacingX", movement.x);
             }
 
+            if (HasSabatonstOfRecal)
+            {
+
+                if (Physics2D.OverlapCircle(groundCheck.position, 0.1f, LavaLayer))
+                {
+                    TeleportToSafety();
+
+                }
+            }
+
         }
         
 
@@ -84,12 +103,33 @@ public class Movment : MonoBehaviour
 
     private bool IsGrounded()
     {
-        return Physics2D.OverlapCircle(groundCheck.position, 0.3f, groundLayer);
+        
+        
+        return Physics2D.OverlapCircle(groundCheck.position, 0.1f, groundLayer);
+        
+        
+    }
+
+    private void TeleportToSafety()
+    {
+        transform.position = recallPoint.position;
+        SpawnParticles();
+    }
+
+    private void SpawnParticles()
+    {
+        GameObject particle = Instantiate(recallPE, groundCheck.position, Quaternion.identity);
+        particle.transform.rotation = Quaternion.LookRotation(particle.transform.up, particle.transform.forward);
     }
 
     public void HasTrousers()
     {
         canjump = true;
+    }
+
+    public void HasSabatons()
+    {
+        HasSabatonstOfRecal = true;
     }
 
     public void SwitchPlane()

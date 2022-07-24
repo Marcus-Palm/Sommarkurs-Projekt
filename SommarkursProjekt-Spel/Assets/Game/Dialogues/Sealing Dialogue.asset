@@ -1,0 +1,198 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7567099989184157507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: 2ce477a2-9096-4375-b8ad-0b21ca20000e
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Quickly seal it away!
+  buttonLabel: 
+  children:
+  - b3fdb13f-57db-4408-bfd9-1c715ee20cac
+  rect:
+    serializedVersion: 2
+    x: 331
+    y: 395
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-6605003269199432249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: 43de2100-532b-4792-aa86-7b919a8177b2
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: hopfully this worked
+  buttonLabel: 
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 801
+    y: 408
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-215577917339646628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: 0e30a518-e5b6-4424-bbe9-291f2ffc5c96
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: You Have acquired all the gems necessary to seal the evil and stop it from
+    emerging
+  buttonLabel: 
+  children:
+  - 2ce477a2-9096-4375-b8ad-0b21ca20000e
+  rect:
+    serializedVersion: 2
+    x: 93
+    y: 239
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-146518849718664508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: ad847478-334b-48ab-bbc0-afa77eadbc35
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: "With the \u201CGem of Courage\u201D I SEAL YOU!"
+  buttonLabel: Courage
+  children:
+  - e7be3b1f-7337-4a20-bf8d-694439632c28
+  rect:
+    serializedVersion: 2
+    x: 848
+    y: 230
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: Two
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa85a55025902fb48a17ed45df9110f5, type: 3}
+  m_Name: Sealing Dialogue
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -215577917339646628}
+  - {fileID: 6778909007498853460}
+  - {fileID: -7567099989184157507}
+  - {fileID: -146518849718664508}
+  - {fileID: 387523925472575378}
+  - {fileID: 2909013308552088800}
+  newNodeOffset: {x: 250, y: 0}
+  playerName: Player
+  NPCName: Narrator
+--- !u!114 &387523925472575378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: e7be3b1f-7337-4a20-bf8d-694439632c28
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: "With the \u201CCrystal of Power\u201D I SEAL YOU!!!"
+  buttonLabel: Power
+  children:
+  - a3aefec4-2edc-4057-9910-01b109605122
+  rect:
+    serializedVersion: 2
+    x: 1076
+    y: 229
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: Three
+--- !u!114 &2909013308552088800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: a3aefec4-2edc-4057-9910-01b109605122
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: "With the Gems of destiny\u2019s powers combined I hereby seal YOU!!!!!!!!  "
+  buttonLabel: combined
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1299
+    y: 240
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: Seal
+--- !u!114 &6778909007498853460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: b3fdb13f-57db-4408-bfd9-1c715ee20cac
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: "With the \u201CJewel of Wisdom\u201D I Seal you!"
+  buttonLabel: Wisdom
+  children:
+  - ad847478-334b-48ab-bbc0-afa77eadbc35
+  rect:
+    serializedVersion: 2
+    x: 590
+    y: 230
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: One

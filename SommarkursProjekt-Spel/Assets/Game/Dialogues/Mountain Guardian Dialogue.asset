@@ -1,0 +1,520 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7916393312993725079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: e07c0f6f-1989-48cc-b3bf-5fbdf1881302
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Take the gems to the shrine in the northeast and seal the great evil. Make
+    haste you are running out of time!
+  buttonLabel: 
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 2767
+    y: 158
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-6945141173211008352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: 6f9a85ca-bb3a-4e9c-a83b-62a84ebaa38f
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: "I\u2019m pretty sure I wouldn\u2019t. but I might."
+  buttonLabel: I might
+  children:
+  - f3ac5ae0-4add-438e-910c-36c225dcf4a8
+  rect:
+    serializedVersion: 2
+    x: 2026
+    y: 718
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-6591950667811740757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: 1d846c8a-52af-4b77-ad6e-e60f9d5f971e
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: '*You receive the "Crystal of Power"*'
+  buttonLabel: 
+  children:
+  - e07c0f6f-1989-48cc-b3bf-5fbdf1881302
+  rect:
+    serializedVersion: 2
+    x: 2536
+    y: 158
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: UpdateQuestPartThree
+--- !u!114 &-6334151895326806105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: 1c89b59d-56d6-447f-b22d-d63fc2f287e7
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "Don\u2019t be silly,  to get the \"Crystal of Power\" from me you must show
+    a great feat of power or strength."
+  buttonLabel: 
+  children:
+  - d1d3f0c7-b81b-4f65-871d-7ad6c103c34f
+  rect:
+    serializedVersion: 2
+    x: 805
+    y: 281
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-5723050065347582525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: 8c21f639-8767-4d4a-a317-55ab19d86678
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Yes, I did
+  buttonLabel: Yes
+  children:
+  - 59d09c51-4534-4674-940a-a1754c316e5f
+  rect:
+    serializedVersion: 2
+    x: 2036
+    y: 158
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-1950503712870046773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: 33eb8ada-8afc-47a0-88da-14a3889cb0e0
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Yes, I fell in on my way here.
+  buttonLabel: Yes
+  children:
+  - 09cbe18f-cb51-4392-9c9e-9891023de08e
+  rect:
+    serializedVersion: 2
+    x: 1553
+    y: 277
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-1810301024428139074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: e999c7d4-70a3-4f61-b91f-c0ce174e5ce9
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: "Does that mean I\u2019ve proven myself?"
+  buttonLabel: Have I proven myself?
+  children:
+  - 1c89b59d-56d6-447f-b22d-d63fc2f287e7
+  rect:
+    serializedVersion: 2
+    x: 555
+    y: 285
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-1377274133543229187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: cb0b2b5b-c4e7-45db-a965-68415a442f67
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: 'I sense that you have already gathered the other gems needed to seal away
+    the great evil. '
+  buttonLabel: 
+  children:
+  - e999c7d4-70a3-4f61-b91f-c0ce174e5ce9
+  - 99c212b8-84fb-4f54-b131-6d6240efcb96
+  rect:
+    serializedVersion: 2
+    x: 316
+    y: 368
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-1261558543673538108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: f05fcbfa-7e6d-4ae3-8cba-cc1688c815cf
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: No, I jumped over it.
+  buttonLabel: No
+  children:
+  - dc126f50-f91f-4320-b4f9-b45aaf76279b
+  rect:
+    serializedVersion: 2
+    x: 1560
+    y: 489
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa85a55025902fb48a17ed45df9110f5, type: 3}
+  m_Name: Mountain Guardian Dialogue
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 4634794214110106281}
+  - {fileID: -1377274133543229187}
+  - {fileID: -1810301024428139074}
+  - {fileID: 5923559947387517795}
+  - {fileID: -6334151895326806105}
+  - {fileID: 1414238772937040626}
+  - {fileID: 2373610041600222408}
+  - {fileID: 6236147401415390933}
+  - {fileID: -1950503712870046773}
+  - {fileID: 2088898422084380890}
+  - {fileID: -5723050065347582525}
+  - {fileID: 6277149610037649420}
+  - {fileID: -6591950667811740757}
+  - {fileID: -7916393312993725079}
+  - {fileID: -1261558543673538108}
+  - {fileID: 620216368604159416}
+  - {fileID: 4303005695367055081}
+  - {fileID: -6945141173211008352}
+  - {fileID: 1026373035741292266}
+  newNodeOffset: {x: 250, y: 0}
+  playerName: Player
+  NPCName: Mountain Guardian
+--- !u!114 &620216368604159416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: dc126f50-f91f-4320-b4f9-b45aaf76279b
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Do you think you would survive if you jumped in?
+  buttonLabel: 
+  children:
+  - 8f30264a-6bcf-4077-b209-8ac61729268f
+  - 6f9a85ca-bb3a-4e9c-a83b-62a84ebaa38f
+  rect:
+    serializedVersion: 2
+    x: 1792
+    y: 545
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &1026373035741292266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: f3ac5ae0-4add-438e-910c-36c225dcf4a8
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Then do it and come back when you have.
+  buttonLabel: 
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 2299
+    y: 631
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: NewDialogue
+--- !u!114 &1414238772937040626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: 67399922-9849-4288-8925-934c8797ce1e
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Not so fast, to get the "Crystal of Power" from me you must show a great
+    feat of power or strength.
+  buttonLabel: 
+  children:
+  - d1d3f0c7-b81b-4f65-871d-7ad6c103c34f
+  rect:
+    serializedVersion: 2
+    x: 804
+    y: 481
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &2088898422084380890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: 09cbe18f-cb51-4392-9c9e-9891023de08e
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: You jumped in lava and you survived!?
+  buttonLabel: 
+  children:
+  - 8c21f639-8767-4d4a-a317-55ab19d86678
+  rect:
+    serializedVersion: 2
+    x: 1784
+    y: 227
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &2373610041600222408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: d1d3f0c7-b81b-4f65-871d-7ad6c103c34f
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: And how am I supposed to do that. What do you want me to jump in the lava
+    or something?
+  buttonLabel: And how am I supposed to do that
+  children:
+  - 6ba6f070-282a-4f9e-a616-e6a37dd05d55
+  rect:
+    serializedVersion: 2
+    x: 1064
+    y: 388
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &4303005695367055081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: 8f30264a-6bcf-4077-b209-8ac61729268f
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: I could take it.
+  buttonLabel: 'Yes '
+  children:
+  - f3ac5ae0-4add-438e-910c-36c225dcf4a8
+  rect:
+    serializedVersion: 2
+    x: 2032
+    y: 525
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &4634794214110106281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: fdb4fdc4-2d98-4cd0-9cd0-f18f1af0a0c9
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "Well, hello there, I\u2019m the guardian of the mountain. Safekeeper of
+    one of the gems of destiny. I can sense the great evil emerging. Are you here
+    to stop it? "
+  buttonLabel: 
+  children:
+  - cb0b2b5b-c4e7-45db-a965-68415a442f67
+  rect:
+    serializedVersion: 2
+    x: 105
+    y: 366
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &5923559947387517795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: 99c212b8-84fb-4f54-b131-6d6240efcb96
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: "If it\u2019s that urgent then give it here!"
+  buttonLabel: Give it here!
+  children:
+  - 67399922-9849-4288-8925-934c8797ce1e
+  rect:
+    serializedVersion: 2
+    x: 553
+    y: 481
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &6236147401415390933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: 6ba6f070-282a-4f9e-a616-e6a37dd05d55
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Have you done that!?
+  buttonLabel: 
+  children:
+  - 33eb8ada-8afc-47a0-88da-14a3889cb0e0
+  - f05fcbfa-7e6d-4ae3-8cba-cc1688c815cf
+  rect:
+    serializedVersion: 2
+    x: 1314
+    y: 388
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &6277149610037649420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: 59d09c51-4534-4674-940a-a1754c316e5f
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: 'Amazing that is truly a sign of your power. Here take it '
+  buttonLabel: 
+  children:
+  - 1d846c8a-52af-4b77-ad6e-e60f9d5f971e
+  rect:
+    serializedVersion: 2
+    x: 2286
+    y: 158
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 

@@ -9,13 +9,16 @@ namespace summerProject.Dialogue
     public class AIConversant : MonoBehaviour
     {
         [SerializeField] Dialogue dialogue;
-        
+
 
         [SerializeField] GameObject conversationPrompt;
 
         GameObject player;
 
         bool inConverastionRange = false;
+
+
+        [SerializeField] Dialogue alternateDialogue; 
         // Start is called before the first frame update
         void Start()
         {
@@ -51,6 +54,11 @@ namespace summerProject.Dialogue
                 conversationPrompt.SetActive(false);
 
             }
+        }
+
+        public void ChangeCurrentDialogue()
+        {
+            dialogue = alternateDialogue;
         }
     }
 }

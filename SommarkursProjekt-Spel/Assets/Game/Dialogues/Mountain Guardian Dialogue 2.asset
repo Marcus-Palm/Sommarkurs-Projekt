@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8514449401428912900
+--- !u!114 &-8000243333312168657
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10,47 +10,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
-  m_Name: fb4947f1-8f3f-4015-bb81-9efa95369f82
-  m_EditorClassIdentifier: 
-  isPlayerSpeaking: 1
-  text: 
-  buttonLabel: 
-  children:
-  - 5ab096f2-7ffb-4280-bc92-f5497c64f730
-  rect:
-    serializedVersion: 2
-    x: 499
-    y: 240
-    width: 200
-    height: 100
-  onEnterAction: 
-  onExitAction: 
---- !u!114 &-5362459985876693694
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
-  m_Name: 2722a3fe-3cb0-4400-87f1-d45f665ec6a7
+  m_Name: 0832710f-0430-4885-9daf-5b412e7563d8
   m_EditorClassIdentifier: 
   isPlayerSpeaking: 0
-  text: HERO!! Only YOU can do this. you must. The entire world is at stake.
+  text: '*You receive the "Crystal of Power"*'
   buttonLabel: 
   children:
-  - 2a82cc1d-0695-4578-87e9-e5d9acb754de
+  - 611a7b80-80b4-4536-9340-b6080c929ba7
   rect:
     serializedVersion: 2
-    x: 691
-    y: 518
+    x: 1290
+    y: 85
     width: 200
     height: 150
-  onEnterAction: Anoyed
-  onExitAction: AIExitTest
---- !u!114 &-3722947233794804092
+  onEnterAction: 
+  onExitAction: UpdateQuestPartThree
+--- !u!114 &-7991758616117188197
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -60,22 +35,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
-  m_Name: 2a82cc1d-0695-4578-87e9-e5d9acb754de
+  m_Name: 611a7b80-80b4-4536-9340-b6080c929ba7
   m_EditorClassIdentifier: 
-  isPlayerSpeaking: 1
-  text: 'Fine I''ll do it. '
-  buttonLabel: Urgh! Fine.
-  children:
-  - 5ab096f2-7ffb-4280-bc92-f5497c64f730
+  isPlayerSpeaking: 0
+  text: Take the gems to the shrine in the northeast and seal the great evil. Make
+    haste you are running out of time
+  buttonLabel: 
+  children: []
   rect:
     serializedVersion: 2
-    x: 950
-    y: 440
+    x: 1522
+    y: 89
     width: 200
     height: 150
   onEnterAction: 
   onExitAction: 
---- !u!114 &-1209519111838415841
+--- !u!114 &-7319145458765759875
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -85,22 +60,46 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
-  m_Name: 5ab096f2-7ffb-4280-bc92-f5497c64f730
+  m_Name: 6d56a4ea-7c8a-446b-8733-be761814e183
   m_EditorClassIdentifier: 
-  isPlayerSpeaking: 0
-  text: Thank you Hero, I knew we could count on you. Now you need to go to the big
-    castle and rerteve the first Gem of Destiny. Takl to the old knight there they
-    probably have something that can help you on your journey.
-  buttonLabel: 
+  isPlayerSpeaking: 1
+  text: 'Yes, I did '
+  buttonLabel: yes
   children:
-  - 9f718a2d-372f-46fe-848c-09bbabf9a86d
+  - 21ffca06-3333-4b15-a4b1-18c1388b7474
   rect:
     serializedVersion: 2
-    x: 918
-    y: 144
+    x: 332
+    y: 197
     width: 200
-    height: 100
-  onEnterAction: Happy
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-4657712117493093937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: a61ca531-3a3a-42f3-a6e6-711a56849955
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: '(probably best not to mention the sabatons that teleported me to safety.)
+    It was probably the copper alloy in my armour. '
+  buttonLabel: Copper
+  children:
+  - 6d5dfcd6-5bb0-47d7-9397-d34e260afce9
+  rect:
+    serializedVersion: 2
+    x: 821
+    y: 226
+    width: 200
+    height: 150
+  onEnterAction: 
   onExitAction: 
 --- !u!114 &11400000
 MonoBehaviour:
@@ -112,21 +111,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fa85a55025902fb48a17ed45df9110f5, type: 3}
-  m_Name: Intro Naration
+  m_Name: Mountain Guardian Dialogue 2
   m_EditorClassIdentifier: 
   nodes:
-  - {fileID: 7997299618548173835}
-  - {fileID: -1209519111838415841}
-  - {fileID: 5649251856067634370}
-  - {fileID: 6617222881854576484}
-  - {fileID: -5362459985876693694}
-  - {fileID: -3722947233794804092}
-  - {fileID: 2885869079279822636}
-  - {fileID: 5145612942496530800}
+  - {fileID: 5133203124310238998}
+  - {fileID: -7319145458765759875}
+  - {fileID: 7120213220284035439}
+  - {fileID: -8000243333312168657}
+  - {fileID: -7991758616117188197}
+  - {fileID: 8992934912090005820}
+  - {fileID: 7243641813053823639}
+  - {fileID: -4657712117493093937}
   newNodeOffset: {x: 250, y: 0}
-  playerName: Player
-  NPCName: Narrator
---- !u!114 &1142909866071055338
+  playerName: 
+  NPCName: 
+--- !u!114 &5133203124310238998
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -136,143 +135,93 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
-  m_Name: 9ad9ece3-6d33-46c4-834c-83d06f1abeb8
+  m_Name: b33f2395-a3dd-451a-b886-98e769b6b17e
   m_EditorClassIdentifier: 
   isPlayerSpeaking: 0
-  text: 
+  text: 'Did you actually, do it? '
   buttonLabel: 
+  children:
+  - 6d56a4ea-7c8a-446b-8733-be761814e183
+  - ae854b23-27fd-472d-a3fe-8a1470cc999b
+  rect:
+    serializedVersion: 2
+    x: 85
+    y: 364
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &7120213220284035439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: 6d5dfcd6-5bb0-47d7-9397-d34e260afce9
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: 'Amazing that is truly a sign of your power. Here take it '
+  buttonLabel: 
+  children:
+  - 0832710f-0430-4885-9daf-5b412e7563d8
+  rect:
+    serializedVersion: 2
+    x: 1066
+    y: 86
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &7243641813053823639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: 21ffca06-3333-4b15-a4b1-18c1388b7474
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: 'I Saw you jump and then get enveloped in green flames. Then you were gone. '
+  buttonLabel: 
+  children:
+  - a61ca531-3a3a-42f3-a6e6-711a56849955
+  rect:
+    serializedVersion: 2
+    x: 585
+    y: 102
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &8992934912090005820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: ae854b23-27fd-472d-a3fe-8a1470cc999b
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Not yet
+  buttonLabel: Not yet
   children: []
   rect:
     serializedVersion: 2
-    x: 509
-    y: 448
-    width: 200
-    height: 100
-  onEnterAction: 
-  onExitAction: 
---- !u!114 &2885869079279822636
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
-  m_Name: 9f718a2d-372f-46fe-848c-09bbabf9a86d
-  m_EditorClassIdentifier: 
-  isPlayerSpeaking: 0
-  text: ... and remember. you can move in the map using the WASD keys.
-  buttonLabel: 
-  children:
-  - 0329417a-831c-4e46-98b2-f561ca8ea099
-  rect:
-    serializedVersion: 2
-    x: 1195
-    y: 151
+    x: 602
+    y: 554
     width: 200
     height: 150
   onEnterAction: 
-  onExitAction: 
---- !u!114 &5145612942496530800
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
-  m_Name: 0329417a-831c-4e46-98b2-f561ca8ea099
-  m_EditorClassIdentifier: 
-  isPlayerSpeaking: 0
-  text: ...and you use the E kye to interact with other knights...
-  buttonLabel: 
-  children: []
-  rect:
-    serializedVersion: 2
-    x: 1477
-    y: 164
-    width: 200
-    height: 150
-  onEnterAction: 
-  onExitAction: GiveQuest
---- !u!114 &5649251856067634370
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
-  m_Name: d4c7d259-0a97-4f37-bd06-80a8691134f0
-  m_EditorClassIdentifier: 
-  isPlayerSpeaking: 1
-  text: I will do it! You can count on me Mr.Narrator
-  buttonLabel: I'm on it
-  children:
-  - 5ab096f2-7ffb-4280-bc92-f5497c64f730
-  rect:
-    serializedVersion: 2
-    x: 420
-    y: 157
-    width: 200
-    height: 150
-  onEnterAction: 
-  onExitAction: 
---- !u!114 &6617222881854576484
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
-  m_Name: 6628c325-a3d5-422d-8b22-c62a9476bf3e
-  m_EditorClassIdentifier: 
-  isPlayerSpeaking: 1
-  text: That seems like a lott... and I've got stuff to do so...
-  buttonLabel: Nahh, don't feel like it.
-  children:
-  - 2722a3fe-3cb0-4400-87f1-d45f665ec6a7
-  rect:
-    serializedVersion: 2
-    x: 407
-    y: 398
-    width: 200
-    height: 150
-  onEnterAction: TestSelection
-  onExitAction: 
---- !u!114 &7997299618548173835
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
-  m_Name: 56d20e0d-b44d-4220-ab0f-7eb1e5cf366c
-  m_EditorClassIdentifier: 
-  isPlayerSpeaking: 0
-  text: Hero! You need to go. The deamonking has returned! You must go and collect
-    the relics of old. With them you can seal it away again.
-  buttonLabel: 
-  children:
-  - d4c7d259-0a97-4f37-bd06-80a8691134f0
-  - 6628c325-a3d5-422d-8b22-c62a9476bf3e
-  rect:
-    serializedVersion: 2
-    x: 77
-    y: 278
-    width: 200
-    height: 100
-  onEnterAction: TestRootEntry
   onExitAction: 

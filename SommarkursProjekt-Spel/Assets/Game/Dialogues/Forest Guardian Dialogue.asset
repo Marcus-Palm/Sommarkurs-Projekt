@@ -1,0 +1,391 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7904375503673688765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: 1afa231b-4380-4e7c-a27b-6eff18d848d9
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Yes, I need it to seal the evil. What shall I do to earn the Gem?
+  buttonLabel: Yes, I need it to seal the evil
+  children:
+  - 2b863453-e081-4ddc-aa80-ef582da54b9b
+  rect:
+    serializedVersion: 2
+    x: 431
+    y: 247
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-6926656978014236744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: 3c0d0b25-50a0-434d-be75-139d7559fa96
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "I understand but you have already proven yourself by actually making it
+    up here. So, I won\u2019t waste your time further. The great evil needs to be
+    sealed again soon. "
+  buttonLabel: 
+  children:
+  - 8bf0f59a-27aa-4cc7-9691-92d320e63f14
+  rect:
+    serializedVersion: 2
+    x: 1729
+    y: 520
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-6463391803305093802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: 2b863453-e081-4ddc-aa80-ef582da54b9b
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "\u2026"
+  buttonLabel: 
+  children:
+  - 8afef08b-c396-4fb1-b0e9-6082f396cefa
+  rect:
+    serializedVersion: 2
+    x: 730
+    y: 356
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-6275711223298781246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: 7475329c-7902-44e5-9463-72071cab4d4c
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Yes.
+  buttonLabel: 
+  children:
+  - 8bf0f59a-27aa-4cc7-9691-92d320e63f14
+  rect:
+    serializedVersion: 2
+    x: 1700
+    y: 254
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-5515509538476011328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: 21646555-7a0a-47d5-a09c-38fbf5b21b54
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "*You receive \u201Cthe sabatons of recall\u201D*  "
+  buttonLabel: 
+  children:
+  - 68ab3a11-9acd-48c4-b366-c474f855b99c
+  rect:
+    serializedVersion: 2
+    x: 2558
+    y: 412
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: CanRecall
+--- !u!114 &-4974469432821839456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: d530bdb8-d4cc-43cc-a03b-07215c7fb75b
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Ok, lets get this over with what do I need to do for you to give me the Gem?
+  buttonLabel: Ok, lets get this over with
+  children:
+  - 2b863453-e081-4ddc-aa80-ef582da54b9b
+  rect:
+    serializedVersion: 2
+    x: 440
+    y: 456
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-4938758367147337547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: 87056a13-fbeb-4d7a-95c0-9eb54e8e85dc
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: 'Here *you receive the "Gem of Courage"* '
+  buttonLabel: 
+  children:
+  - 338cc50b-170f-4057-8e3b-24e162b85dfa
+  - fe02cf46-780a-499a-b341-ed9db2e49242
+  rect:
+    serializedVersion: 2
+    x: 1213
+    y: 358
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: QuestPartTwo
+--- !u!114 &-3156741583919242830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: fe02cf46-780a-499a-b341-ed9db2e49242
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: "But at the castle\u2026"
+  buttonLabel: "But at the castle\u2026"
+  children:
+  - 3c0d0b25-50a0-434d-be75-139d7559fa96
+  rect:
+    serializedVersion: 2
+    x: 1464
+    y: 499
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-3088462215210084703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: f600524f-b380-4797-aa1e-5b5b4fbde044
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "Ahh, Hero. I have been expecting you\u2026 I am the guardian of the forest.
+    The great evil is growing in power. I assume you have come for the \"Gem of Courage\".
+    Am I correct in my assumption?"
+  buttonLabel: 
+  children:
+  - 1afa231b-4380-4e7c-a27b-6eff18d848d9
+  - d530bdb8-d4cc-43cc-a03b-07215c7fb75b
+  rect:
+    serializedVersion: 2
+    x: 126
+    y: 345
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-2827028684541374058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: 8bf0f59a-27aa-4cc7-9691-92d320e63f14
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Okay fine by me.
+  buttonLabel: Okay fine by me.
+  children:
+  - 3a7f55a9-06d3-4f47-8bbf-77a21a7c74d7
+  rect:
+    serializedVersion: 2
+    x: 2068
+    y: 412
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa85a55025902fb48a17ed45df9110f5, type: 3}
+  m_Name: Forest Guardian Dialogue
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -3088462215210084703}
+  - {fileID: -7904375503673688765}
+  - {fileID: -4974469432821839456}
+  - {fileID: -6463391803305093802}
+  - {fileID: 242330242080885996}
+  - {fileID: -4938758367147337547}
+  - {fileID: 6476763231919510047}
+  - {fileID: -3156741583919242830}
+  - {fileID: -6275711223298781246}
+  - {fileID: -2827028684541374058}
+  - {fileID: -6926656978014236744}
+  - {fileID: 2786013732867119340}
+  - {fileID: -5515509538476011328}
+  - {fileID: 3540447587250190556}
+  newNodeOffset: {x: 250, y: 0}
+  playerName: Player
+  NPCName: The Forest Guardian
+--- !u!114 &242330242080885996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: 8afef08b-c396-4fb1-b0e9-6082f396cefa
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: 'What are you talking about? You climbed the ancient world tree to obtain
+    the gem, you have already shown great courage. '
+  buttonLabel: 
+  children:
+  - 87056a13-fbeb-4d7a-95c0-9eb54e8e85dc
+  rect:
+    serializedVersion: 2
+    x: 980
+    y: 356
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &2786013732867119340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: 3a7f55a9-06d3-4f47-8bbf-77a21a7c74d7
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Oh, hero before you leave. Take this gift you will need it for where you
+    are going next.
+  buttonLabel: 
+  children:
+  - 21646555-7a0a-47d5-a09c-38fbf5b21b54
+  rect:
+    serializedVersion: 2
+    x: 2317
+    y: 412
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &3540447587250190556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: 68ab3a11-9acd-48c4-b366-c474f855b99c
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: They will mark a location for you and if you ever are in a situation where
+    you face certain demise, they will recall you to said location.
+  buttonLabel: 
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 2794
+    y: 414
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &6476763231919510047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: 338cc50b-170f-4057-8e3b-24e162b85dfa
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: 'Just like that?! No riddles? No quest? You are just going to give it to
+    me '
+  buttonLabel: Just like that
+  children:
+  - 7475329c-7902-44e5-9463-72071cab4d4c
+  rect:
+    serializedVersion: 2
+    x: 1450
+    y: 254
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 

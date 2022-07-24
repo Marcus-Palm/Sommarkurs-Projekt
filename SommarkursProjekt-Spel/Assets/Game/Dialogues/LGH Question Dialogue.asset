@@ -1,0 +1,1067 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8857202285851923893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: 00b5fe0e-3676-4f07-be9c-f1d6b1b20b68
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: "I just told you that the great evil will be the end of everything if you
+    don\u2019t give me the jewel"
+  buttonLabel: 'I just told you '
+  children:
+  - d9bb8176-22f8-45a9-bcc8-22cbf08cfd84
+  rect:
+    serializedVersion: 2
+    x: 3426
+    y: 99
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-8810751927936369148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: 0ec78af0-8c78-4e20-9a69-61995c9d89fc
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: "Urgh\u2026 Fine! What do I have to do? Recite poetry, calculus?"
+  buttonLabel: Fine
+  children:
+  - 18d9ebfa-34d5-4851-9b28-bd5bbd766360
+  rect:
+    serializedVersion: 2
+    x: 928
+    y: 728
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-8298355948494272017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: 95bd1449-16a7-4517-bd87-983bd9d4266c
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "Greetings hero I am the guardian of knowledge. I protect the \u201CJewel
+    of wisdom\u201D. Only the once who can show me their wisdom can get the \u201CJewel
+    of wisdom\u201D from me."
+  buttonLabel: 
+  children:
+  - 17e73da0-93df-4ccf-a861-85dc1c70c984
+  - 11a49df4-95de-4a86-aa00-1156bb087430
+  rect:
+    serializedVersion: 2
+    x: 168
+    y: 381
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-5695979181292955771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: 67f4dd92-f5f4-48a0-b44e-02a5d6a51d56
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Splendid! Your first riddle is
+  buttonLabel: 
+  children:
+  - d4083f02-35c3-4c1c-8dcb-b3225220ce9e
+  rect:
+    serializedVersion: 2
+    x: 1197
+    y: 140
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-5101417672278668542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: 09a0fe71-3991-46ea-8039-fe1425f7152a
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: No, I want to try the next one
+  buttonLabel: Next question
+  children:
+  - ede1d302-9ca5-4cfb-903c-e1be33516bae
+  rect:
+    serializedVersion: 2
+    x: 2164
+    y: 385
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-4828522282452995885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: 11a49df4-95de-4a86-aa00-1156bb087430
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: "Or you could just give it to me so we don\u2019t have to waste time. There
+    is an evil coming to destroy our world."
+  buttonLabel: "Or\u2026 "
+  children:
+  - 75da1664-d2e3-49f0-8c73-8fa50179e000
+  rect:
+    serializedVersion: 2
+    x: 432
+    y: 570
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-3810998110267836667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: 125c68a2-37b3-4f86-ad48-15ba814d45b3
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "No, that\u2019s incorrect. Try again."
+  buttonLabel: 
+  children:
+  - 17f76e3a-6986-4d77-906a-48b320ec6b3b
+  rect:
+    serializedVersion: 2
+    x: 2413
+    y: 643
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-2845719910785577689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: a2388243-e014-4c97-be4d-23b1672ec885
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Verry good hero. Now to the thirrd riddle.
+  buttonLabel: 
+  children:
+  - f270ae25-64fc-4102-9430-9d93b6b4264f
+  rect:
+    serializedVersion: 2
+    x: 2895
+    y: 101
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-2635304193866571664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: 96a8639e-a3fa-41a9-9be6-98ccfa4f2a81
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Poprly!!
+  buttonLabel: 
+  children:
+  - 8e9ba91e-1462-4e68-9e6f-9e84ec19519f
+  rect:
+    serializedVersion: 2
+    x: 4142
+    y: 32
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-2591500718907423961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: f270ae25-64fc-4102-9430-9d93b6b4264f
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: What is the end of everything?
+  buttonLabel: 
+  children:
+  - 00b5fe0e-3676-4f07-be9c-f1d6b1b20b68
+  - bbd57f0c-18bd-4288-b1a5-9e392bad7e79
+  - a662920d-67d9-40b7-869d-37aa5749b105
+  rect:
+    serializedVersion: 2
+    x: 3131
+    y: 275
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-1894108975301705374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: a03d8efa-5111-43c5-8d41-d425a400736e
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Idon't Know 14:30
+  buttonLabel: 14:30
+  children:
+  - 800f9995-6cde-4f4b-9970-a5873116118f
+  rect:
+    serializedVersion: 2
+    x: 1696
+    y: 253
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-1840416549720829355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: 95781acd-b62f-4719-b58a-6ec1b5d5b925
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: alright; I will do your dumb riddles.
+  buttonLabel: ...
+  children:
+  - 67f4dd92-f5f4-48a0-b44e-02a5d6a51d56
+  rect:
+    serializedVersion: 2
+    x: 1444
+    y: 537
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-1681677738391463603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: d9bb8176-22f8-45a9-bcc8-22cbf08cfd84
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: You...
+  buttonLabel: 
+  children:
+  - e598df3d-40e3-4a3a-a57d-f22eafc8fb13
+  rect:
+    serializedVersion: 2
+    x: 3718
+    y: 47
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-1372070874882712908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: 25953e78-7ebe-49ef-a09c-12f1dc22b14c
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "As a parting gift take this. *you receive \u201Cthe trousers of leaping
+    and landing\u201D*"
+  buttonLabel: 
+  children:
+  - d437f8f1-6b63-405f-a204-cd3543b3a787
+  rect:
+    serializedVersion: 2
+    x: 3720
+    y: 722
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: canJump
+--- !u!114 &-1143210938559081524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: 75da1664-d2e3-49f0-8c73-8fa50179e000
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: I know of the danger but if you want the jewel, you must obtain it fairly.
+  buttonLabel: 
+  children:
+  - 0ec78af0-8c78-4e20-9a69-61995c9d89fc
+  rect:
+    serializedVersion: 2
+    x: 683
+    y: 674
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-176007671403716003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: 20d7251d-47dc-474c-99fa-3998eb4ea522
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: 'Good luck hero. The world counts on your success. The next relic is hidden
+    in the great forest atop the ancient world tree. '
+  buttonLabel: 
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 4207
+    y: 750
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa85a55025902fb48a17ed45df9110f5, type: 3}
+  m_Name: LGH Question Dialogue
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -8298355948494272017}
+  - {fileID: 5780281730210865805}
+  - {fileID: -1372070874882712908}
+  - {fileID: 8572938248470509182}
+  - {fileID: -4828522282452995885}
+  - {fileID: 5016992450690051317}
+  - {fileID: 3593242463107272529}
+  - {fileID: 4569958164158744927}
+  - {fileID: 6864718485436449267}
+  - {fileID: -1840416549720829355}
+  - {fileID: -5695979181292955771}
+  - {fileID: 1218574463544295718}
+  - {fileID: 5854187790551951126}
+  - {fileID: -1894108975301705374}
+  - {fileID: -1143210938559081524}
+  - {fileID: -8810751927936369148}
+  - {fileID: 8010836134496691829}
+  - {fileID: 4013976894381263438}
+  - {fileID: 6349682407974624308}
+  - {fileID: 1401871376964561797}
+  - {fileID: 8174827257423743403}
+  - {fileID: -2845719910785577689}
+  - {fileID: -2591500718907423961}
+  - {fileID: -8857202285851923893}
+  - {fileID: 2120803631410094987}
+  - {fileID: 6749017253306259838}
+  - {fileID: -3810998110267836667}
+  - {fileID: -1681677738391463603}
+  - {fileID: 2724080997619802703}
+  - {fileID: -2635304193866571664}
+  - {fileID: 4434491514925556882}
+  - {fileID: 2121916686267234884}
+  - {fileID: 6712373427007002559}
+  - {fileID: 5457670885287099097}
+  - {fileID: 690621508400439947}
+  - {fileID: 4648648480388336174}
+  - {fileID: -176007671403716003}
+  newNodeOffset: {x: 250, y: 0}
+  playerName: Player
+  NPCName: The Guardioan of Knowledge
+--- !u!114 &690621508400439947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: d44927c5-4ff9-4871-93cd-988462693f87
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "Fantasticly done Hero, you have the wisdom to wield the \u201CJewel of wisdom\u201D"
+  buttonLabel: 
+  children:
+  - fa2ce06f-e85c-49ed-ad0b-d4d09f899770
+  rect:
+    serializedVersion: 2
+    x: 4354
+    y: 552
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &1218574463544295718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: d4083f02-35c3-4c1c-8dcb-b3225220ce9e
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: What time is it when an elephant sits on a fence?
+  buttonLabel: 
+  children:
+  - b97252e4-1100-4654-9c97-d0865be47240
+  - a03d8efa-5111-43c5-8d41-d425a400736e
+  rect:
+    serializedVersion: 2
+    x: 1446
+    y: 142
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &1401871376964561797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: 1c90e0ad-ffed-49c6-8f33-db6de8a77690
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: That would depend on how big the forest is.
+  buttonLabel: How big is the forest?
+  children:
+  - 125c68a2-37b3-4f86-ad48-15ba814d45b3
+  rect:
+    serializedVersion: 2
+    x: 2595
+    y: 430
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &2120803631410094987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: bbd57f0c-18bd-4288-b1a5-9e392bad7e79
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: I guess it could be time.
+  buttonLabel: Time
+  children:
+  - d9bb8176-22f8-45a9-bcc8-22cbf08cfd84
+  rect:
+    serializedVersion: 2
+    x: 3477
+    y: 295
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &2121916686267234884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: d7e6ce8d-ae08-414f-90ed-54325f6d4a3e
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: You...
+  buttonLabel: 
+  children:
+  - 63a734aa-5277-420f-851c-bf4af34ab98e
+  rect:
+    serializedVersion: 2
+    x: 3722
+    y: 553
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &2724080997619802703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: e598df3d-40e3-4a3a-a57d-f22eafc8fb13
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Answered...
+  buttonLabel: 
+  children:
+  - 96a8639e-a3fa-41a9-9be6-98ccfa4f2a81
+  rect:
+    serializedVersion: 2
+    x: 3923
+    y: 182
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &3593242463107272529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: 44bcab94-a407-4f71-a318-1f8da4a167e8
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Alright, bring it on!
+  buttonLabel: 'Ok '
+  children:
+  - 67f4dd92-f5f4-48a0-b44e-02a5d6a51d56
+  rect:
+    serializedVersion: 2
+    x: 949
+    y: 154
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &4013976894381263438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: cbef6cfe-5835-40b0-91ea-0f94545f3a34
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "Well done, Hero. Alright next riddle\u2026"
+  buttonLabel: 
+  children:
+  - 17f76e3a-6986-4d77-906a-48b320ec6b3b
+  rect:
+    serializedVersion: 2
+    x: 1996
+    y: 42
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &4434491514925556882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: 8e9ba91e-1462-4e68-9e6f-9e84ec19519f
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: try again!
+  buttonLabel: 
+  children:
+  - f270ae25-64fc-4102-9430-9d93b6b4264f
+  rect:
+    serializedVersion: 2
+    x: 4392
+    y: 32
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &4569958164158744927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: f87f4ff9-c03f-4ab1-97ad-29227f7fc269
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: What if I just take it by force.
+  buttonLabel: "Or\u2026"
+  children:
+  - 9740aca3-a275-4491-ae23-67a63c7cf558
+  rect:
+    serializedVersion: 2
+    x: 939
+    y: 438
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &4648648480388336174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: d437f8f1-6b63-405f-a204-cd3543b3a787
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "With these you can now jump using the \u201Cspace\u201D key. They also stop
+    you from taking fall damage."
+  buttonLabel: 
+  children:
+  - 20d7251d-47dc-474c-99fa-3998eb4ea522
+  rect:
+    serializedVersion: 2
+    x: 3957
+    y: 750
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &5016992450690051317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: 18d9ebfa-34d5-4851-9b28-bd5bbd766360
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "No,no,no that\u2019s intelligence  I want you to answer my riddles."
+  buttonLabel: 
+  children:
+  - 44bcab94-a407-4f71-a318-1f8da4a167e8
+  - f87f4ff9-c03f-4ab1-97ad-29227f7fc269
+  rect:
+    serializedVersion: 2
+    x: 713
+    y: 270
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &5457670885287099097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: 50c948e1-dec1-430a-8daf-5115a4cac41a
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: wisely
+  buttonLabel: 
+  children:
+  - d44927c5-4ff9-4871-93cd-988462693f87
+  rect:
+    serializedVersion: 2
+    x: 4140
+    y: 553
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &5780281730210865805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: 17e73da0-93df-4ccf-a861-85dc1c70c984
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Okay what do I have to do to show how wise I am? Maths, physics, chemistry?
+  buttonLabel: Ok
+  children:
+  - 18d9ebfa-34d5-4851-9b28-bd5bbd766360
+  rect:
+    serializedVersion: 2
+    x: 449
+    y: 316
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &5854187790551951126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: b97252e4-1100-4654-9c97-d0865be47240
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: It's time to fix the fence.
+  buttonLabel: Time to fix the fence.
+  children:
+  - cbef6cfe-5835-40b0-91ea-0f94545f3a34
+  rect:
+    serializedVersion: 2
+    x: 1725
+    y: 10
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &6349682407974624308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: 17f76e3a-6986-4d77-906a-48b320ec6b3b
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: How far can you walk into the woods?
+  buttonLabel: 
+  children:
+  - 1c90e0ad-ffed-49c6-8f33-db6de8a77690
+  - 8f66d47d-fe05-41ad-95d6-82eedfab913c
+  rect:
+    serializedVersion: 2
+    x: 2241
+    y: 227
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &6358545357368046552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: ede1d302-9ca5-4cfb-903c-e1be33516bae
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: alright...
+  buttonLabel: 
+  children:
+  - 17f76e3a-6986-4d77-906a-48b320ec6b3b
+  rect:
+    serializedVersion: 2
+    x: 2378
+    y: 418
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &6712373427007002559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: 63a734aa-5277-420f-851c-bf4af34ab98e
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Answered...
+  buttonLabel: 
+  children:
+  - 50c948e1-dec1-430a-8daf-5115a4cac41a
+  rect:
+    serializedVersion: 2
+    x: 3933
+    y: 553
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &6749017253306259838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: a662920d-67d9-40b7-869d-37aa5749b105
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: The letter "G" is the end of everything.
+  buttonLabel: '"G"'
+  children:
+  - d7e6ce8d-ae08-414f-90ed-54325f6d4a3e
+  rect:
+    serializedVersion: 2
+    x: 3497
+    y: 525
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &6864718485436449267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: 9740aca3-a275-4491-ae23-67a63c7cf558
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Good luck with that, I'm a spirit...
+  buttonLabel: 
+  children:
+  - 95781acd-b62f-4719-b58a-6ec1b5d5b925
+  rect:
+    serializedVersion: 2
+    x: 1178
+    y: 484
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &7864444052742166426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: 141696ae-12c4-4850-85c6-4d1c81fb7ee9
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: okay, I will try again.
+  buttonLabel: try Again
+  children:
+  - d4083f02-35c3-4c1c-8dcb-b3225220ce9e
+  rect:
+    serializedVersion: 2
+    x: 1715
+    y: 618
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &8010836134496691829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: 800f9995-6cde-4f4b-9970-a5873116118f
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: No, not exactly try again.
+  buttonLabel: 
+  children:
+  - d4083f02-35c3-4c1c-8dcb-b3225220ce9e
+  rect:
+    serializedVersion: 2
+    x: 1707
+    y: 550
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &8174827257423743403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: 8f66d47d-fe05-41ad-95d6-82eedfab913c
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: "Halfway \u2014 after that, you\u2019re walking out."
+  buttonLabel: Halfway
+  children:
+  - a2388243-e014-4c97-be4d-23b1672ec885
+  rect:
+    serializedVersion: 2
+    x: 2572
+    y: 80
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &8572938248470509182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3efafd2ebbc7f843841111a31cbc792, type: 3}
+  m_Name: fa2ce06f-e85c-49ed-ad0b-d4d09f899770
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "* You receve the \u201CJewel of wisdom\u201D *"
+  buttonLabel: 
+  children:
+  - 25953e78-7ebe-49ef-a09c-12f1dc22b14c
+  rect:
+    serializedVersion: 2
+    x: 4575
+    y: 550
+    width: 200
+    height: 150
+  onEnterAction: 
+  onExitAction: QuestPartOne
